@@ -1,0 +1,281 @@
+﻿#include "pch-cpp.hpp"
+
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include <stdint.h>
+#include <limits>
+
+
+
+// System.Char[]
+struct CharU5BU5D_t7B7FC5BC8091AA3B9CB0B29CDD80B5EE9254AA34;
+// System.String
+struct String_t;
+// System.Void
+struct Void_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5;
+
+struct ArrayOfMergeInfo_t02B4A9E0D36D49B209133C0DAE7A678C62050495 ;
+struct unitytls_errorstate_t0015D496F47B84E1D98D31D5132B27FADB38F499 ;
+struct unitytls_key_ref_t7EFBA70561D0E9FD8517038EBC0CC9FCF9AE6B61 ;
+struct unitytls_tlsctx_tA5DB674E2A83ADDD03624096501FCDD29E9DB7FA ;
+struct unitytls_x509list_ref_tE4376B9592E1AF7E02BB0BB2CE110D8219832D4D ;
+struct unitytls_x509name_tC19C2F27FF70AD438A79A5F66E4C5FFA2613EDA6 ;
+
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Object
+
+
+// System.ValueType
+struct  ValueType_tDBF999C1B75C48C68621878250DBF6CDBCF51E52  : public RuntimeObject
+{
+public:
+
+public:
+};
+
+// Native definition for P/Invoke marshalling of System.ValueType
+struct ValueType_tDBF999C1B75C48C68621878250DBF6CDBCF51E52_marshaled_pinvoke
+{
+};
+// Native definition for COM marshalling of System.ValueType
+struct ValueType_tDBF999C1B75C48C68621878250DBF6CDBCF51E52_marshaled_com
+{
+};
+
+// System.Enum
+struct  Enum_t23B90B40F60E677A8025267341651C94AE079CDA  : public ValueType_tDBF999C1B75C48C68621878250DBF6CDBCF51E52
+{
+public:
+
+public:
+};
+
+struct Enum_t23B90B40F60E677A8025267341651C94AE079CDA_StaticFields
+{
+public:
+	// System.Char[] System.Enum::enumSeperatorCharArray
+	CharU5BU5D_t7B7FC5BC8091AA3B9CB0B29CDD80B5EE9254AA34* ___enumSeperatorCharArray_0;
+
+public:
+	inline static int32_t get_offset_of_enumSeperatorCharArray_0() { return static_cast<int32_t>(offsetof(Enum_t23B90B40F60E677A8025267341651C94AE079CDA_StaticFields, ___enumSeperatorCharArray_0)); }
+	inline CharU5BU5D_t7B7FC5BC8091AA3B9CB0B29CDD80B5EE9254AA34* get_enumSeperatorCharArray_0() const { return ___enumSeperatorCharArray_0; }
+	inline CharU5BU5D_t7B7FC5BC8091AA3B9CB0B29CDD80B5EE9254AA34** get_address_of_enumSeperatorCharArray_0() { return &___enumSeperatorCharArray_0; }
+	inline void set_enumSeperatorCharArray_0(CharU5BU5D_t7B7FC5BC8091AA3B9CB0B29CDD80B5EE9254AA34* value)
+	{
+		___enumSeperatorCharArray_0 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___enumSeperatorCharArray_0), (void*)value);
+	}
+};
+
+// Native definition for P/Invoke marshalling of System.Enum
+struct Enum_t23B90B40F60E677A8025267341651C94AE079CDA_marshaled_pinvoke
+{
+};
+// Native definition for COM marshalling of System.Enum
+struct Enum_t23B90B40F60E677A8025267341651C94AE079CDA_marshaled_com
+{
+};
+
+// System.IntPtr
+struct  IntPtr_t 
+{
+public:
+	// System.Void* System.IntPtr::m_value
+	void* ___m_value_0;
+
+public:
+	inline static int32_t get_offset_of_m_value_0() { return static_cast<int32_t>(offsetof(IntPtr_t, ___m_value_0)); }
+	inline void* get_m_value_0() const { return ___m_value_0; }
+	inline void** get_address_of_m_value_0() { return &___m_value_0; }
+	inline void set_m_value_0(void* value)
+	{
+		___m_value_0 = value;
+	}
+};
+
+struct IntPtr_t_StaticFields
+{
+public:
+	// System.IntPtr System.IntPtr::Zero
+	intptr_t ___Zero_1;
+
+public:
+	inline static int32_t get_offset_of_Zero_1() { return static_cast<int32_t>(offsetof(IntPtr_t_StaticFields, ___Zero_1)); }
+	inline intptr_t get_Zero_1() const { return ___Zero_1; }
+	inline intptr_t* get_address_of_Zero_1() { return &___Zero_1; }
+	inline void set_Zero_1(intptr_t value)
+	{
+		___Zero_1 = value;
+	}
+};
+
+
+// System.Void
+struct  Void_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5 
+{
+public:
+	union
+	{
+		struct
+		{
+		};
+		uint8_t Void_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5__padding[1];
+	};
+
+public:
+};
+
+
+// Mono.Unity.UnityTls/unitytls_x509list_ref
+struct  unitytls_x509list_ref_tE4376B9592E1AF7E02BB0BB2CE110D8219832D4D 
+{
+public:
+	// System.UInt64 Mono.Unity.UnityTls/unitytls_x509list_ref::handle
+	uint64_t ___handle_0;
+
+public:
+	inline static int32_t get_offset_of_handle_0() { return static_cast<int32_t>(offsetof(unitytls_x509list_ref_tE4376B9592E1AF7E02BB0BB2CE110D8219832D4D, ___handle_0)); }
+	inline uint64_t get_handle_0() const { return ___handle_0; }
+	inline uint64_t* get_address_of_handle_0() { return &___handle_0; }
+	inline void set_handle_0(uint64_t value)
+	{
+		___handle_0 = value;
+	}
+};
+
+
+// Mono.Unity.UnityTls/unitytls_x509verify_result
+struct  unitytls_x509verify_result_t3CE5D0E50DA56D0A6561757039E6F1F292996B84 
+{
+public:
+	// System.UInt32 Mono.Unity.UnityTls/unitytls_x509verify_result::value__
+	uint32_t ___value___2;
+
+public:
+	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(unitytls_x509verify_result_t3CE5D0E50DA56D0A6561757039E6F1F292996B84, ___value___2)); }
+	inline uint32_t get_value___2() const { return ___value___2; }
+	inline uint32_t* get_address_of_value___2() { return &___value___2; }
+	inline void set_value___2(uint32_t value)
+	{
+		___value___2 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_ARReferenceImageFactory_ARReferenceImageCreateAsyncCallback_m10C8B44B41FC6079279A00F3EEF47F2CA2ED210E(intptr_t ___context0, intptr_t ___referenceImageHandle1);
+extern "C" int32_t CDECL ReversePInvokeWrapper_DeflateStreamNative_UnmanagedRead_m1B817101FEA9D3C28DF3C9192F70557465BDFB25(intptr_t ___buffer0, int32_t ___length1, intptr_t ___data2);
+extern "C" int32_t CDECL ReversePInvokeWrapper_DeflateStreamNative_UnmanagedWrite_m531442C0133AA29BF262DFD21F81CCBE5EA7E086(intptr_t ___buffer0, int32_t ___length1, intptr_t ___data2);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_OSSpecificSynchronizationContext_InvocationEntry_m0045E44F7E960D6B4A864D5206D4116249C09BB0(intptr_t ___arg0);
+extern "C" void CDECL ReversePInvokeWrapper_UnityTlsContext_CertificateCallback_m793CC2EDD82935F29A3DEBD1F208DC56EA822E9C(void* ___userData0, unitytls_tlsctx_tA5DB674E2A83ADDD03624096501FCDD29E9DB7FA * ___ctx1, uint8_t* ___cn2, intptr_t ___cnLen3, unitytls_x509name_tC19C2F27FF70AD438A79A5F66E4C5FFA2613EDA6 * ___caList4, intptr_t ___caListLen5, unitytls_x509list_ref_tE4376B9592E1AF7E02BB0BB2CE110D8219832D4D * ___chain6, unitytls_key_ref_t7EFBA70561D0E9FD8517038EBC0CC9FCF9AE6B61 * ___key7, unitytls_errorstate_t0015D496F47B84E1D98D31D5132B27FADB38F499 * ___errorState8);
+extern "C" intptr_t CDECL ReversePInvokeWrapper_UnityTlsContext_ReadCallback_mA0BF382397D912B79B6064B58B6C7C5D97853245(void* ___userData0, uint8_t* ___buffer1, intptr_t ___bufferLen2, unitytls_errorstate_t0015D496F47B84E1D98D31D5132B27FADB38F499 * ___errorState3);
+extern "C" uint32_t CDECL ReversePInvokeWrapper_UnityTlsContext_VerifyCallback_m8C61EF3A0037483AD56A083CA47D8E4C0404961E(void* ___userData0, unitytls_x509list_ref_tE4376B9592E1AF7E02BB0BB2CE110D8219832D4D  ___chain1, unitytls_errorstate_t0015D496F47B84E1D98D31D5132B27FADB38F499 * ___errorState2);
+extern "C" intptr_t CDECL ReversePInvokeWrapper_UnityTlsContext_WriteCallback_m466D11090AF989AD1F14E6FE049320297C12A86C(void* ___userData0, uint8_t* ___data1, intptr_t ___bufferLen2, unitytls_errorstate_t0015D496F47B84E1D98D31D5132B27FADB38F499 * ___errorState3);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper__ARCoreFrameRenderer_ResetGlState_m1FE5783D47CDAC412926D9A368FBEFAEFE3D7E06(int32_t ___eventId0);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper__NativeARConfiguration_ConfigurationCheckCapabilityAndSupportCallback_m50E15D2FB9CA5EF52A393F7B5BE4FAF4882B02F3(intptr_t ___context0, uint64_t ___hardwareCapability1, uint64_t ___softwareSupport2);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper__NativeARNetworking__onDidReceivePoseFromPeerNative_m46BCCE841B5F7D8DCBFC5D3A699B84D5C3A703C9(intptr_t ___context0, intptr_t ___pose1, intptr_t ___peerHandle2);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper__NativeARNetworking__onDidReceiveStateFromPeerNative_m340C747069FBBC6E4D6D1C3E13F389AF94EB4DF1(intptr_t ___context0, uint32_t ___rawPeerState1, intptr_t ___peerHandle2);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper__NativeARSession__onCameraDidChangeTrackingStateNative_mCA4BE7CC86ABDE69C44E4B5B8DE5806CA6A3FC5B(intptr_t ___context0, intptr_t ___cameraPtr1);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper__NativeARSession__onDidAddAnchorsNative_m379185F988E34976B34B8783EFDC95BFC34D549F(intptr_t ___context0, intptr_t ___anchorsPtrs1, uint64_t ___anchorsCount2);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper__NativeARSession__onDidAddMapsNative_mD0122095003CA888EC0F0EC7F20FE74CC0D46D49(intptr_t ___context0, intptr_t ___mapPtrs1, uint64_t ___mapsCount2);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper__NativeARSession__onDidMergeAnchorsNative_m1BCC847FBF6685D3C2C5080C0BFBF0A72DC0FD12(intptr_t ___context0, ArrayOfMergeInfo_t02B4A9E0D36D49B209133C0DAE7A678C62050495 * ___anchorsPtrs1);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper__NativeARSession__onDidRemoveAnchorsNative_m8F885FB2490FFC9721C18BD430DBEEC48312683D(intptr_t ___context0, intptr_t ___anchorsPtrs1, uint64_t ___anchorsCount2);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper__NativeARSession__onDidUpdateAnchorsNative_mD69624619103654DEDB7634DB92C84214D66D333(intptr_t ___context0, intptr_t ___anchorsPtrs1, uint64_t ___anchorsCount2);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper__NativeARSession__onDidUpdateFrameNative_mA739D1C806C983D9B0DFACF4AAAE85CE3301E0FD(intptr_t ___context0, intptr_t ___framePtr1);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper__NativeARSession__onDidUpdateMapsNative_m7999651BD348A0B8AF4685E210176F47C1AF46FC(intptr_t ___context0, intptr_t ___mapPtrs1, uint64_t ___mapsCount2);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper__NativeARSession__onDidUpdateMeshNative_mE26CD8DABE1FC0B7F017AD29F781C1A9811E67E7(intptr_t ___context0, intptr_t ___meshPtr1);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper__NativeARSession__onSessionDidFailWithErrorNative_mB1F3FA5068266DD087E8EA7ADCDB19B6C71D5E04(intptr_t ___context0, uint64_t ___errorNo1);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper__NativeARSession__onSessionInterruptionEndedNative_m07A3188461650F3257104D2706CD7259E7B581F0(intptr_t ___context0);
+extern "C" int32_t DEFAULT_CALL ReversePInvokeWrapper__NativeARSession__onSessionShouldAttemptRelocalizationNative_m5D9A4E39E15DA44AB6184033474CCC086A31C766(intptr_t ___context0);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper__NativeARSession__onSessionWasInterruptedNative_m85D9AB7186080A308DAA8FED8531583820EE19A3(intptr_t ___context0);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper__NativeARWorldTrackingConfiguration_SetDetectionImagesAsyncCallback_m61B58E6334A3813FC54A4B49B8CA2497874C8152(intptr_t ___context0);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper__NativeDatastore__keyValueAddedNative_mC0B7D4D796D325584F6DDE8DC99FE332933352C4(intptr_t ___context0, char* ___key1);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper__NativeDatastore__keyValueDeletedNative_mB82B4AD4E8B7FCB513C9F56BFD57796E61A319F2(intptr_t ___context0, char* ___key1);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper__NativeDatastore__keyValueUpdatedNative_m2CE6572FC92EAEADE28CF4A364251E0B7FE3FA24(intptr_t ___context0, char* ___key1);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper__NativeMultipeerNetworking__ConnectionDidFailWithErrorNative_m43C7A865DF3939D82A6563FC57A853B8A7C34E1B(intptr_t ___context0, uint32_t ___errorCode1);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper__NativeMultipeerNetworking__didAddPeerNative_mC567AACB9F850902B0089F4F86C2E4C39D5B9AAF(intptr_t ___context0, intptr_t ___rawPeer1);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper__NativeMultipeerNetworking__didConnectNative_m37A46C39985DCB802CB19A316307D43F53F99253(intptr_t ___context0, intptr_t ___rawSelf1, intptr_t ___rawHost2, uint32_t ___isHost3);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper__NativeMultipeerNetworking__didReceiveDataFromPeerNative_m6422B037BD55C8713B154509D896CBD3BC73DBF6(intptr_t ___context0, uint32_t ___tag1, intptr_t ___rawData2, uint64_t ___rawDataSize3, intptr_t ___rawPeer4, uint8_t ___transportType5);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper__NativeMultipeerNetworking__didRemovePeerNative_m54921888A05651A00627602409F9F67DEF93FCE5(intptr_t ___context0, intptr_t ___peerIDPtr1);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper__NativeMultipeerNetworking__didUpdatePersistentKeyValueNative_mEFC49F7407124A9531BA27040AE9DA7A696D6961(intptr_t ___context0, char* ___key1, intptr_t ___value2, uint64_t ___valueSize3);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper__NativeNetworking__connectionEventReceivedNative_mAD2201BB3098B4B18407ED6A09CABB47F7D2EFD5(intptr_t ___context0, uint8_t ___connectionEvent1);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper__NativeNetworking__dataReceivedNative_mFDD772FE5861BBCDCA255D6D2A00B13074EAC614(intptr_t ___context0, uint32_t ___tag1, intptr_t ___rawData2, uint64_t ___rawDataSize3, intptr_t ___rawPeer4, uint8_t ___transportType5);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper__NativeNetworking__didAddPeerNative_m3E6275DF05FB1439D72AB6B132718639966BE30D(intptr_t ___context0, intptr_t ___peerIDPtr1);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper__NativeNetworking__didRemovePeerNative_m6BBD6C337AE1D5FF4C1F0BDAAD58F8DF0B116A74(intptr_t ___context0, intptr_t ___peerIDPtr1);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper__NativeVPSColocalization__colocalizationStateCallbackNative_m6F56D989F10C3B55BF8FF17CDE063F732F683B49(intptr_t ___context0, uint32_t ___state1, uint8_t* ___peerId2);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper__NativeVPSColocalization__failureReasonCallbackNative_m5C39D7205AB130D3E00BFA8B598036B599CB67BE(intptr_t ___context0, uint8_t ___vpsColocErrorCode1, uint8_t ___optionalVpsErrorCode2);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper__NativeWayspotAnchorControllerImplementationBase__onDidCreateManagedPosesNative_mA92068F6C1D6697FF0A8FE1ADD9D1322E28B5C47(intptr_t ___context0, intptr_t ___wayspotAnchorPtrs1, uint64_t ___anchorsCount2);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper__NativeWayspotAnchorControllerImplementationBase__onDidResolveManagedPosesNative_m8EB9BA8877B1A42EACC0C35322989173DB26DDB3(intptr_t ___context0, intptr_t ___identifiers1, intptr_t ___localPoses2, intptr_t ___accuracies3, uint64_t ___anchorsCount4);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper__NativeWayspotAnchorControllerImplementationBase__onDidUpdateLocalizationStateNative_m6C6A3163DB39C31A3068E29BA6709981FB204486(intptr_t ___context0, uint32_t ___state1, uint32_t ___failureReason2);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper__NativeWayspotAnchorControllerImplementationBase__onDidUpdateManagedPoseStatusesNative_m0286F6BE51BF8737C55F9CFD0A409D520C91D11C(intptr_t ___context0, intptr_t ___identifiersPtr1, intptr_t ___statusCodesPtr2, uint64_t ___anchorsCount3);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper__PlaybackLocationService_OnNativeLocationUpdated_mE793C7AB179CAB9BFEF969BFF09119D28899A515(intptr_t ___context0, intptr_t ___dataHandle1);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper__TelemetryService__OnNativeRecordTelemetry_m23B760CEEED239A48D4F14AA2EB9EB213B7AB2B8(uint8_t* ___requestId0, uint32_t ___requestIdLength1, uint8_t* ___serialisedPayload2, uint32_t ___payloadLength3);
+
+
+IL2CPP_EXTERN_C const Il2CppMethodPointer g_ReversePInvokeWrapperPointers[];
+const Il2CppMethodPointer g_ReversePInvokeWrapperPointers[47] = 
+{
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_ARReferenceImageFactory_ARReferenceImageCreateAsyncCallback_m10C8B44B41FC6079279A00F3EEF47F2CA2ED210E),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_DeflateStreamNative_UnmanagedRead_m1B817101FEA9D3C28DF3C9192F70557465BDFB25),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_DeflateStreamNative_UnmanagedWrite_m531442C0133AA29BF262DFD21F81CCBE5EA7E086),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_OSSpecificSynchronizationContext_InvocationEntry_m0045E44F7E960D6B4A864D5206D4116249C09BB0),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_UnityTlsContext_CertificateCallback_m793CC2EDD82935F29A3DEBD1F208DC56EA822E9C),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_UnityTlsContext_ReadCallback_mA0BF382397D912B79B6064B58B6C7C5D97853245),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_UnityTlsContext_VerifyCallback_m8C61EF3A0037483AD56A083CA47D8E4C0404961E),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_UnityTlsContext_WriteCallback_m466D11090AF989AD1F14E6FE049320297C12A86C),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper__ARCoreFrameRenderer_ResetGlState_m1FE5783D47CDAC412926D9A368FBEFAEFE3D7E06),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper__NativeARConfiguration_ConfigurationCheckCapabilityAndSupportCallback_m50E15D2FB9CA5EF52A393F7B5BE4FAF4882B02F3),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper__NativeARNetworking__onDidReceivePoseFromPeerNative_m46BCCE841B5F7D8DCBFC5D3A699B84D5C3A703C9),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper__NativeARNetworking__onDidReceiveStateFromPeerNative_m340C747069FBBC6E4D6D1C3E13F389AF94EB4DF1),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper__NativeARSession__onCameraDidChangeTrackingStateNative_mCA4BE7CC86ABDE69C44E4B5B8DE5806CA6A3FC5B),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper__NativeARSession__onDidAddAnchorsNative_m379185F988E34976B34B8783EFDC95BFC34D549F),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper__NativeARSession__onDidAddMapsNative_mD0122095003CA888EC0F0EC7F20FE74CC0D46D49),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper__NativeARSession__onDidMergeAnchorsNative_m1BCC847FBF6685D3C2C5080C0BFBF0A72DC0FD12),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper__NativeARSession__onDidRemoveAnchorsNative_m8F885FB2490FFC9721C18BD430DBEEC48312683D),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper__NativeARSession__onDidUpdateAnchorsNative_mD69624619103654DEDB7634DB92C84214D66D333),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper__NativeARSession__onDidUpdateFrameNative_mA739D1C806C983D9B0DFACF4AAAE85CE3301E0FD),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper__NativeARSession__onDidUpdateMapsNative_m7999651BD348A0B8AF4685E210176F47C1AF46FC),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper__NativeARSession__onDidUpdateMeshNative_mE26CD8DABE1FC0B7F017AD29F781C1A9811E67E7),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper__NativeARSession__onSessionDidFailWithErrorNative_mB1F3FA5068266DD087E8EA7ADCDB19B6C71D5E04),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper__NativeARSession__onSessionInterruptionEndedNative_m07A3188461650F3257104D2706CD7259E7B581F0),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper__NativeARSession__onSessionShouldAttemptRelocalizationNative_m5D9A4E39E15DA44AB6184033474CCC086A31C766),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper__NativeARSession__onSessionWasInterruptedNative_m85D9AB7186080A308DAA8FED8531583820EE19A3),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper__NativeARWorldTrackingConfiguration_SetDetectionImagesAsyncCallback_m61B58E6334A3813FC54A4B49B8CA2497874C8152),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper__NativeDatastore__keyValueAddedNative_mC0B7D4D796D325584F6DDE8DC99FE332933352C4),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper__NativeDatastore__keyValueDeletedNative_mB82B4AD4E8B7FCB513C9F56BFD57796E61A319F2),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper__NativeDatastore__keyValueUpdatedNative_m2CE6572FC92EAEADE28CF4A364251E0B7FE3FA24),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper__NativeMultipeerNetworking__ConnectionDidFailWithErrorNative_m43C7A865DF3939D82A6563FC57A853B8A7C34E1B),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper__NativeMultipeerNetworking__didAddPeerNative_mC567AACB9F850902B0089F4F86C2E4C39D5B9AAF),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper__NativeMultipeerNetworking__didConnectNative_m37A46C39985DCB802CB19A316307D43F53F99253),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper__NativeMultipeerNetworking__didReceiveDataFromPeerNative_m6422B037BD55C8713B154509D896CBD3BC73DBF6),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper__NativeMultipeerNetworking__didRemovePeerNative_m54921888A05651A00627602409F9F67DEF93FCE5),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper__NativeMultipeerNetworking__didUpdatePersistentKeyValueNative_mEFC49F7407124A9531BA27040AE9DA7A696D6961),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper__NativeNetworking__connectionEventReceivedNative_mAD2201BB3098B4B18407ED6A09CABB47F7D2EFD5),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper__NativeNetworking__dataReceivedNative_mFDD772FE5861BBCDCA255D6D2A00B13074EAC614),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper__NativeNetworking__didAddPeerNative_m3E6275DF05FB1439D72AB6B132718639966BE30D),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper__NativeNetworking__didRemovePeerNative_m6BBD6C337AE1D5FF4C1F0BDAAD58F8DF0B116A74),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper__NativeVPSColocalization__colocalizationStateCallbackNative_m6F56D989F10C3B55BF8FF17CDE063F732F683B49),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper__NativeVPSColocalization__failureReasonCallbackNative_m5C39D7205AB130D3E00BFA8B598036B599CB67BE),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper__NativeWayspotAnchorControllerImplementationBase__onDidCreateManagedPosesNative_mA92068F6C1D6697FF0A8FE1ADD9D1322E28B5C47),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper__NativeWayspotAnchorControllerImplementationBase__onDidResolveManagedPosesNative_m8EB9BA8877B1A42EACC0C35322989173DB26DDB3),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper__NativeWayspotAnchorControllerImplementationBase__onDidUpdateLocalizationStateNative_m6C6A3163DB39C31A3068E29BA6709981FB204486),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper__NativeWayspotAnchorControllerImplementationBase__onDidUpdateManagedPoseStatusesNative_m0286F6BE51BF8737C55F9CFD0A409D520C91D11C),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper__PlaybackLocationService_OnNativeLocationUpdated_mE793C7AB179CAB9BFEF969BFF09119D28899A515),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper__TelemetryService__OnNativeRecordTelemetry_m23B760CEEED239A48D4F14AA2EB9EB213B7AB2B8),
+};
